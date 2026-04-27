@@ -45,11 +45,11 @@ int main() {
     getline(cin, manufacturer);
     cout << "Enter Year Built: ";
     cin >> yearBuilt;
-    cout << " Enter Towing Capacity: ";
+    cout << "Enter Towing Capacity: ";
     cin >> towing;
 
     Truck t(manufacturer, yearBuilt, towing);
-    cout << "\n--- Truck Info ---/n";
+    cout << "\n--- Truck Info ---\n";
     t.displayInfo();
 
     return 0;
